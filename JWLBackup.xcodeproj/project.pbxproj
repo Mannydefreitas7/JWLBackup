@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64FBF7F62864DF1100B410EE /* JWLBackupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FBF7F52864DF1100B410EE /* JWLBackupApp.swift */; };
+		64FBF7F82864DF1100B410EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FBF7F72864DF1100B410EE /* ContentView.swift */; };
+		64FBF7FA2864DF1500B410EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FBF7F92864DF1500B410EE /* Assets.xcassets */; };
+		64FBF7FD2864DF1500B410EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FBF7FC2864DF1500B410EE /* Preview Assets.xcassets */; };
+		64FBF8082864DF1500B410EE /* JWLBackupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FBF8072864DF1500B410EE /* JWLBackupTests.swift */; };
+		64FBF8122864DF1500B410EE /* JWLBackupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FBF8112864DF1500B410EE /* JWLBackupUITests.swift */; };
+		64FBF8142864DF1500B410EE /* JWLBackupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FBF8132864DF1500B410EE /* JWLBackupUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64FBF8042864DF1500B410EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64FBF7EA2864DF1100B410EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FBF7F12864DF1100B410EE;
+			remoteInfo = JWLBackup;
+		};
+		64FBF80E2864DF1500B410EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64FBF7EA2864DF1100B410EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FBF7F12864DF1100B410EE;
+			remoteInfo = JWLBackup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64FBF7F22864DF1100B410EE /* JWLBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWLBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FBF7F52864DF1100B410EE /* JWLBackupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWLBackupApp.swift; sourceTree = "<group>"; };
+		64FBF7F72864DF1100B410EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64FBF7F92864DF1500B410EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64FBF7FC2864DF1500B410EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64FBF7FE2864DF1500B410EE /* JWLBackup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JWLBackup.entitlements; sourceTree = "<group>"; };
+		64FBF8032864DF1500B410EE /* JWLBackupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWLBackupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FBF8072864DF1500B410EE /* JWLBackupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWLBackupTests.swift; sourceTree = "<group>"; };
+		64FBF80D2864DF1500B410EE /* JWLBackupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWLBackupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FBF8112864DF1500B410EE /* JWLBackupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWLBackupUITests.swift; sourceTree = "<group>"; };
+		64FBF8132864DF1500B410EE /* JWLBackupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWLBackupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FBF7EF2864DF1100B410EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FBF8002864DF1500B410EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FBF80A2864DF1500B410EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64FBF7E92864DF1100B410EE = {
+			isa = PBXGroup;
+			children = (
+				64FBF7F42864DF1100B410EE /* JWLBackup */,
+				64FBF8062864DF1500B410EE /* JWLBackupTests */,
+				64FBF8102864DF1500B410EE /* JWLBackupUITests */,
+				64FBF7F32864DF1100B410EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FBF7F32864DF1100B410EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FBF7F22864DF1100B410EE /* JWLBackup.app */,
+				64FBF8032864DF1500B410EE /* JWLBackupTests.xctest */,
+				64FBF80D2864DF1500B410EE /* JWLBackupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FBF7F42864DF1100B410EE /* JWLBackup */ = {
+			isa = PBXGroup;
+			children = (
+				64FBF7F52864DF1100B410EE /* JWLBackupApp.swift */,
+				64FBF7F72864DF1100B410EE /* ContentView.swift */,
+				64FBF7F92864DF1500B410EE /* Assets.xcassets */,
+				64FBF7FE2864DF1500B410EE /* JWLBackup.entitlements */,
+				64FBF7FB2864DF1500B410EE /* Preview Content */,
+			);
+			path = JWLBackup;
+			sourceTree = "<group>";
+		};
+		64FBF7FB2864DF1500B410EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64FBF7FC2864DF1500B410EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64FBF8062864DF1500B410EE /* JWLBackupTests */ = {
+			isa = PBXGroup;
+			children = (
+				64FBF8072864DF1500B410EE /* JWLBackupTests.swift */,
+			);
+			path = JWLBackupTests;
+			sourceTree = "<group>";
+		};
+		64FBF8102864DF1500B410EE /* JWLBackupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64FBF8112864DF1500B410EE /* JWLBackupUITests.swift */,
+				64FBF8132864DF1500B410EE /* JWLBackupUITestsLaunchTests.swift */,
+			);
+			path = JWLBackupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FBF7F12864DF1100B410EE /* JWLBackup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FBF8172864DF1500B410EE /* Build configuration list for PBXNativeTarget "JWLBackup" */;
+			buildPhases = (
+				64FBF7EE2864DF1100B410EE /* Sources */,
+				64FBF7EF2864DF1100B410EE /* Frameworks */,
+				64FBF7F02864DF1100B410EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWLBackup;
+			productName = JWLBackup;
+			productReference = 64FBF7F22864DF1100B410EE /* JWLBackup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64FBF8022864DF1500B410EE /* JWLBackupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FBF81A2864DF1500B410EE /* Build configuration list for PBXNativeTarget "JWLBackupTests" */;
+			buildPhases = (
+				64FBF7FF2864DF1500B410EE /* Sources */,
+				64FBF8002864DF1500B410EE /* Frameworks */,
+				64FBF8012864DF1500B410EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64FBF8052864DF1500B410EE /* PBXTargetDependency */,
+			);
+			name = JWLBackupTests;
+			productName = JWLBackupTests;
+			productReference = 64FBF8032864DF1500B410EE /* JWLBackupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64FBF80C2864DF1500B410EE /* JWLBackupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FBF81D2864DF1500B410EE /* Build configuration list for PBXNativeTarget "JWLBackupUITests" */;
+			buildPhases = (
+				64FBF8092864DF1500B410EE /* Sources */,
+				64FBF80A2864DF1500B410EE /* Frameworks */,
+				64FBF80B2864DF1500B410EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64FBF80F2864DF1500B410EE /* PBXTargetDependency */,
+			);
+			name = JWLBackupUITests;
+			productName = JWLBackupUITests;
+			productReference = 64FBF80D2864DF1500B410EE /* JWLBackupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FBF7EA2864DF1100B410EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					64FBF7F12864DF1100B410EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					64FBF8022864DF1500B410EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64FBF7F12864DF1100B410EE;
+					};
+					64FBF80C2864DF1500B410EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64FBF7F12864DF1100B410EE;
+					};
+				};
+			};
+			buildConfigurationList = 64FBF7ED2864DF1100B410EE /* Build configuration list for PBXProject "JWLBackup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64FBF7E92864DF1100B410EE;
+			productRefGroup = 64FBF7F32864DF1100B410EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FBF7F12864DF1100B410EE /* JWLBackup */,
+				64FBF8022864DF1500B410EE /* JWLBackupTests */,
+				64FBF80C2864DF1500B410EE /* JWLBackupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FBF7F02864DF1100B410EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FBF7FD2864DF1500B410EE /* Preview Assets.xcassets in Resources */,
+				64FBF7FA2864DF1500B410EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FBF8012864DF1500B410EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FBF80B2864DF1500B410EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FBF7EE2864DF1100B410EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FBF7F82864DF1100B410EE /* ContentView.swift in Sources */,
+				64FBF7F62864DF1100B410EE /* JWLBackupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FBF7FF2864DF1500B410EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FBF8082864DF1500B410EE /* JWLBackupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FBF8092864DF1500B410EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FBF8142864DF1500B410EE /* JWLBackupUITestsLaunchTests.swift in Sources */,
+				64FBF8122864DF1500B410EE /* JWLBackupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64FBF8052864DF1500B410EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64FBF7F12864DF1100B410EE /* JWLBackup */;
+			targetProxy = 64FBF8042864DF1500B410EE /* PBXContainerItemProxy */;
+		};
+		64FBF80F2864DF1500B410EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64FBF7F12864DF1100B410EE /* JWLBackup */;
+			targetProxy = 64FBF80E2864DF1500B410EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64FBF8152864DF1500B410EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64FBF8162864DF1500B410EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64FBF8182864DF1500B410EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JWLBackup/JWLBackup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JWLBackup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolinweb.JWLBackup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64FBF8192864DF1500B410EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JWLBackup/JWLBackup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JWLBackup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolinweb.JWLBackup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64FBF81B2864DF1500B410EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolinweb.JWLBackupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWLBackup.app/Contents/MacOS/JWLBackup";
+			};
+			name = Debug;
+		};
+		64FBF81C2864DF1500B410EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolinweb.JWLBackupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWLBackup.app/Contents/MacOS/JWLBackup";
+			};
+			name = Release;
+		};
+		64FBF81E2864DF1500B410EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolinweb.JWLBackupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JWLBackup;
+			};
+			name = Debug;
+		};
+		64FBF81F2864DF1500B410EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolinweb.JWLBackupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JWLBackup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FBF7ED2864DF1100B410EE /* Build configuration list for PBXProject "JWLBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FBF8152864DF1500B410EE /* Debug */,
+				64FBF8162864DF1500B410EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FBF8172864DF1500B410EE /* Build configuration list for PBXNativeTarget "JWLBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FBF8182864DF1500B410EE /* Debug */,
+				64FBF8192864DF1500B410EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FBF81A2864DF1500B410EE /* Build configuration list for PBXNativeTarget "JWLBackupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FBF81B2864DF1500B410EE /* Debug */,
+				64FBF81C2864DF1500B410EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FBF81D2864DF1500B410EE /* Build configuration list for PBXNativeTarget "JWLBackupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FBF81E2864DF1500B410EE /* Debug */,
+				64FBF81F2864DF1500B410EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64FBF7EA2864DF1100B410EE /* Project object */;
+}
